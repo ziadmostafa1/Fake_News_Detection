@@ -28,8 +28,6 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from collections import Counter
 
-st.set_page_config(layout='wide', initial_sidebar_state='expanded')
-
 class Preprocessing(BaseEstimator, TransformerMixin):
     def __init__(self):
         self.stop_words = set(stopwords.words('english'))
