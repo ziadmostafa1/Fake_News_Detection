@@ -70,8 +70,7 @@ with open('tfidf.pkl', 'rb') as f:
 with open('preprocessor.pkl', 'rb') as f:
     preprocessor = pickle.load(f)
         
-# Load the data
-data = pd.read_csv('prepared_data.csv')
+
 
 def main():
     preprocessor = Preprocessing()
