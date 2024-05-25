@@ -4,7 +4,7 @@
 
 This project is designed to build a machine learning model to detect fake news. It preprocesses the text data, builds and evaluates several models, and finally deploys the best model using a Streamlit app for user interaction.
 
-###Try the [Streamlit app](https://ziadmostafa1-fake-news-detection-app-mvav1l.streamlit.app/)!
+### Try the [Streamlit app](https://ziadmostafa1-fake-news-detection-app-mvav1l.streamlit.app/)!
 
 ## Table of Contents
 
