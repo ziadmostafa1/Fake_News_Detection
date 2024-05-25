@@ -74,6 +74,7 @@ def main():
     preprocessor = Preprocessing()
     
     # User input
+    st.title("Fake News Detector")
     user_input = st.text_area('Enter a news article:')
 
     # Predict
